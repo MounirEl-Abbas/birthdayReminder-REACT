@@ -30,10 +30,45 @@ body {
 }
 .container {
   background-color: white;
-  width: 400px;
+  width: 450px;
   height: fit-content;
   margin: auto;
+  padding: 10px 30px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
-img {
-  width: 50px;
+.container button {
+  margin: auto;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: #f28ab2;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.birthday-reminder {
+  display: flex;
+  margin: 2em 0;
+  align-items: center;
+}
+.birthday-reminder img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.birthday-reminder div h4 {
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.birthday-reminder div p {
+  color: #2f74a0;
 }

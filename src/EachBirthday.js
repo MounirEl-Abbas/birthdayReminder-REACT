@@ -4,7 +4,7 @@ const EachBirthday = ({ name, age, image }) => {
       <img src={image} alt={name} />
       <div>
         <h4>{name}</h4>
-        <p>{age}</p>
+        <p>{age} years</p>
       </div>
     </div>
   );
